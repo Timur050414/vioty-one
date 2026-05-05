@@ -1,0 +1,91 @@
+:root {
+  --bg: #000;
+  --acsent-color: #d23166;
+  --main-color: rgba(255, 255, 255);
+  --sociol-bg: rgba(255, 255, 255, 0.1);
+  --card-bg: #151515;
+  --about-color: rgba(255, 255, 255, 0.2);
+}
+
+.container {
+  width: 1248px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: 1px solid red;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+/* header */
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 95px;
+}
+
+.header-link {
+  color: var(--main-color);
+  text-align: justify;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-items {
+  display: flex;
+  gap: 15px;
+}
+
+.header-social {
+  width: 36px;
+  height: 36px;
+  background-color: var(--sociol-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.header-img {
+  width: 15px;
+  height: 15px;
+}
+
+/* ----- hero ----- */
+
+/* ----- about ----- */
+.about {
+    margin: 60px 0px;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  color: var(--main-color);
+  text-align: center;
+  font-family: "Alexandria", sans-serif;
+  font-size: 57.33px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -4.013px;
+}
+.about-span {
+  color: var(--about-color);
+}
